@@ -19,3 +19,18 @@ HelloApplication.java – A főprogram, amely betölti az FXML fájlt és elind�
 HelloController.java – A vezérlő (Controller) osztály, ez kezeli a gombok kattintásait és a táblázat logikáját.
 Task.java – Az adatmodell, ami a feladat nevét és elkészültségi állapotát tárolja.
 Launcher.java – Egy segédosztály, amivel a moduláris JavaFX hibák megkerülésével, simán elindítható a program.
+
+---
+
+Követelmények
+Java verzió: JDK 17
+Build eszköz: Maven
+Grafikus könyvtár: JavaFX 17.0.6
+
+---
+
+Futtatás és Fejlesztés
+Nyisd meg a projektet egy Java IDE-ben (pl. IntelliJ IDEA).
+Ha a felületet szeretnéd módosítani, kattints jobb klikkel a hello-view.fxml fájlra, és válaszd az Open In Scene Builder lehetőséget.
+A program futtatásához keresd meg a Launcher.java fájlt.
+Kattints a Launcher osztály melletti zöld háromszög ikonra a kód szélén, és válaszd a Run 'Launcher.main()' opciót.
