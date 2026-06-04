@@ -1,5 +1,6 @@
 Todo-app (JavaFX + FXML)
 Egy modern, MVC mintát követő feladatkezelő (To-Do) alkalmazás, amely JavaFX és FXML alapokon nyugszik. A felület vizuálisan is szerkeszthető a Scene Builder segítségével.
+<img width="1152" height="648" alt="todo" src="https://github.com/user-attachments/assets/a52ea113-be7a-47c1-b741-e509334e6bfc" />
 
 ---
 
