@@ -35,3 +35,7 @@ Nyisd meg a projektet egy Java IDE-ben (pl. IntelliJ IDEA).
 Ha a felületet szeretnéd módosítani, kattints jobb klikkel a hello-view.fxml fájlra, és válaszd az Open In Scene Builder lehetőséget.
 A program futtatásához keresd meg a Launcher.java fájlt.
 Kattints a Launcher osztály melletti zöld háromszög ikonra a kód szélén, és válaszd a Run 'Launcher.main()' opciót.
+
+---
+
+Jó munkát, hajrá pajtik💕😍✌️
