@@ -1,35 +1,41 @@
-Egy egyszerű, JavaFX-alapú feladatkezelő (To-Do) alkalmazás, amely segít a napi teendők nyomon követésében. A projekt Maven környezetben készült.
+Todo-app (JavaFX + FXML)
+Egy modern, MVC mintát követő feladatkezelő (To-Do) alkalmazás, amely JavaFX és FXML alapokon nyugszik. A felület vizuálisan is szerkeszthető a Scene Builder segítségével.
+<img width="1152" height="648" alt="todo" src="https://github.com/user-attachments/assets/a52ea113-be7a-47c1-b741-e509334e6bfc" />
+
+---
 
 Funkciók
-Feladatok hozzáadása: Új teendők beírása egy szöveges mezőbe, majd hozzáadása a listához a "+" gombbal.
+Feladatok hozzáadása: Új teendők beírása a szöveges mezőbe, majd listához adása a + gombbal.
+Vizuális felület (FXML): A dizájn és a kód teljesen el van különítve egymástól a könnyebb szerkeszthetőségért.
+Automatikus elrendezés: A feladatok egy dinamikusan méreteződő TableView táblázatban jelennek meg.
+Állapotkezelés: A kijelölt feladat a "Kész" gombbal befejezetté tehető, ami után a sor automatikusan világoszöld háttérszínt kap.
 
-Táblázatos megjelenítés: A feladatok egy átlátható és automatikusan átméreteződő TableView listában jelennek meg.
+---
 
-Állapotkezelés: A kiválasztott feladat a "Kész" gombra kattintva befejezetté nyilvánítható.
+Projekt felépítése
+A kód a tiszta és átlátható struktúra érdekében több részre van osztva:
 
-Vizuális visszajelzés: A befejezett feladatok sora automatikusan világoszöld háttérszínt kap.
+hello-view.fxml – A felhasználói felület (UI) XML leírása, amit Scene Builderben egérrel is lehet módosítani.
+HelloApplication.java – A főprogram, amely betölti az FXML fájlt és elindítja az ablakot.
+HelloController.java – A vezérlő (Controller) osztály, ez kezeli a gombok kattintásait és a táblázat logikáját.
+Task.java – Az adatmodell, ami a feladat nevét és elkészültségi állapotát tárolja.
+Launcher.java – Egy segédosztály, amivel a moduláris JavaFX hibák megkerülésével, simán elindítható a program.
+
+---
 
 Követelmények
 Java verzió: JDK 17
-
 Build eszköz: Maven
-
 Grafikus könyvtár: JavaFX 17.0.6
 
-Projekt felépítése
-Main.java: Az alkalmazás grafikus felületéért (UI) és a gombok logikájáért felelős főosztály.
+---
 
-Task.java: A feladatok adatmodellje (név és állapot tárolása getterekkel és setterekkel).
+Futtatás és Fejlesztés
+Nyisd meg a projektet egy Java IDE-ben (pl. IntelliJ IDEA).
+Ha a felületet szeretnéd módosítani, kattints jobb klikkel a hello-view.fxml fájlra, és válaszd az Open In Scene Builder lehetőséget.
+A program futtatásához keresd meg a Launcher.java fájlt.
+Kattints a Launcher osztály melletti zöld háromszög ikonra a kód szélén, és válaszd a Run 'Launcher.main()' opciót.
 
-pom.xml: A Maven konfigurációs fájl, amely tartalmazza a JavaFX függőségeket és beállításokat.
+---
 
-Futtatás
-Az alkalmazás elindításához kövesd az alábbi lépéseket a fejlesztőkörnyezetben (pl. IntelliJ IDEA):
-
-Nyisd meg a Main.java fájlt.
-
-Görgess a fájl legaljára a Launcher osztályhoz.
-
-Kattints a Launcher osztály melletti zöld háromszög ikonra.
-
-Válaszd a Run 'Launcher.main()' opciót.
+Jó munkát, hajrá pajtik💕😍✌️
